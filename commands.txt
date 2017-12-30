@@ -11,7 +11,7 @@ Usage:
 $ git push <remote_URL/remote_name> <branch>
 
 # Push all local branches to remote repository
-$ git push —all
+$ git push â€”all
 
 3.git add
 Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area). There are a few different ways to use git add, by adding entire directories, specific files, or all unstaged files.
@@ -23,7 +23,7 @@ $ git add <file or directory name>
 4.git commit
 Record the changes made to the files to a local repository. For easy reference, each commit has a unique ID.
 
-It’s best practice to include a message with each commit explaining the changes made in a commit. Adding a commit message helps to find a particular change or understanding the changes.
+Itâ€™s best practice to include a message with each commit explaining the changes made in a commit. Adding a commit message helps to find a particular change or understanding the changes.
 
 Usage:
 
@@ -37,4 +37,13 @@ Usage:
 
 # Merge changes into current branch
 $ git merge <branch_name>
+
+6.git status
+This command returns the current state of the repository.
+
+git status will return the current working branch. If a file is in the staging area, but not committed, it shows with git status. Or, if there are no changes itâ€™ll return nothing to commit, working directory clean.
+
+Usage:
+
+$ git status
 
