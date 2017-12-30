@@ -1,0 +1,14 @@
+1. git clone
+To create a local working copy of an existing remote repository, use git clone to copy and download the repository to a computer. Cloning is the equivalent of git init when working with a remote repository. Git will create a directory locally with all files and repository history.
+usage :
+git clone <remote_URL>
+
+2. git push
+Sends local commits to the remote repository. git push requires two parameters: the remote repository and the branch that the push is for.
+
+Usage:
+
+$ git push <remote_URL/remote_name> <branch>
+
+# Push all local branches to remote repository
+$ git push —all
